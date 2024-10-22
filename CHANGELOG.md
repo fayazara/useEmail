@@ -1,5 +1,7 @@
 # Changelog
 
+## v0.0.1
+
 ## v0.0.7
 
 [compare changes](https://github.com/SupersaasHQ/useEmail/compare/v0.0.6...v0.0.7)
