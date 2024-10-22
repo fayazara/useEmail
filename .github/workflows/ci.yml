@@ -18,7 +18,8 @@ jobs:
         with:
           node-version: 20
           cache: "pnpm"
-      - run: pnpm install
+      - run: pnpm install --no-frozen-lockfile
+      - run: pnpm format
       - run: pnpm lint
       - run: pnpm test:types
       - run: pnpm build
