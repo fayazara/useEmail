@@ -12,8 +12,8 @@ Supported Providers
 
 <!-- automd:badges color=yellow -->
 
-[![npm version](https://img.shields.io/npm/v/packageName?color=yellow)](https://npmjs.com/package/packageName)
-[![npm downloads](https://img.shields.io/npm/dm/packageName?color=yellow)](https://npmjs.com/package/packageName)
+[![npm version](https://img.shields.io/npm/v/packageName?color=yellow)](https://npmjs.com/package/use-email)
+[![npm downloads](https://img.shields.io/npm/dm/packageName?color=yellow)](https://npmjs.com/package/use-email)
 
 <!-- /automd -->
 
@@ -27,43 +27,43 @@ Install package:
 
 ```sh
 # ✨ Auto-detect
-npx nypm install supersaas
+npx nypm install use-email
 
 # npm
-npm install packageName
+npm install use-email
 
 # yarn
-yarn add packageName
+yarn add use-email
 
 # pnpm
-pnpm install packageName
+pnpm install use-email
 
 # bun
-bun install packageName
+bun install use-email
 ```
 
 <!-- /automd -->
 
 Import:
 
-<!-- automd:jsimport cjs cdn name="pkg" -->
+<!-- automd:jsimport cjs cdn name="use-email" -->
 
 **ESM** (Node.js, Bun)
 
 ```js
-import {} from "pkg";
+import {} from "use-email";
 ```
 
 **CommonJS** (Legacy Node.js)
 
 ```js
-const {} = require("pkg");
+const {} = require("use-email");
 ```
 
 **CDN** (Deno, Bun and Browsers)
 
 ```js
-import {} from "https://esm.sh/pkg";
+import {} from "https://esm.sh/use-email";
 ```
 
 <!-- /automd -->
